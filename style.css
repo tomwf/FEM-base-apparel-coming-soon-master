@@ -134,6 +134,10 @@ main input[type="submit"]:hover {
 }
 
 @media screen and (min-width: 800px) {
+  body {
+    background: url('images/bg-pattern-desktop.svg');
+  }
+
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
