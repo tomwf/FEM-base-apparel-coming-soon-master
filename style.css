@@ -158,6 +158,7 @@ main input[type="submit"]:hover {
     grid-row: 2 / 3;
     text-align: initial;
     padding-right: 8em;
+    position: relative;
   }
 
   .cover {
@@ -167,6 +168,14 @@ main input[type="submit"]:hover {
     background-size: cover;
     width: 100%;
     height: initial;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: -5%;
+    left: 16em;
+    transform: translateX(-50%);
+    width: 100%;
   }
 }
 
